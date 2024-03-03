@@ -16,7 +16,7 @@ def fetch_games_from(date):
 
     return response
 
-
+#commentaire
 def fetch_results_between(start_dt, end_dt):
     site = EsportsClient("lol")
     response = site.cargo_client.query(
